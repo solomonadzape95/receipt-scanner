@@ -4,9 +4,13 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Receipt Scanner MVP',
+  description: 'Created with Next.js and FastAPI',
+  authors: [{ name: 'Solomon', url: 'https://github.com/solomonadzape95' }],
+  creator: 'Solomon',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

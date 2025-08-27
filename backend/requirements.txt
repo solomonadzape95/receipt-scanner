@@ -3,4 +3,7 @@ uvicorn
 easyocr
 pillow
 numpy
-requests
+python-multipart
+pydantic
+google-genai
+python-dotenv
